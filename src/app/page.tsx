@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect } from 'react';
+import Link from 'next/link';
 
 export default function Home() {
   useEffect(() => {
@@ -109,9 +110,11 @@ export default function Home() {
                 <span className="px-3 py-1 bg-electric-purple/20 text-light-purple rounded-full text-sm">Real-time Monitoring</span>
                 <span className="px-3 py-1 bg-electric-purple/20 text-light-purple rounded-full text-sm">SQL</span>
               </div>
-              <button className="w-full bg-gray-700 hover:bg-electric-purple hover:scale-105 text-white py-2 rounded-lg transition-all duration-300 transform">
-                View Project
-              </button>
+              <Link href="/projects/alexander-wireless">
+                <button className="w-full bg-gray-700 hover:bg-electric-purple hover:scale-105 text-white py-2 rounded-lg transition-all duration-300 transform">
+                  View Project
+                </button>
+              </Link>
             </div>
 
             {/* Project 2 */}
