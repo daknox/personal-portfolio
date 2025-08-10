@@ -102,7 +102,7 @@ export default function Home() {
                 </svg>
               </div>
               <h4 className="text-xl font-semibold mb-3">Alexander Wireless Dashboard</h4>
-              <p className="text-gray-400 mb-4">Recreation of a production anomaly detection system developed at T-Mobile, built with generated data to protect proprietary information. Monitors billing cycles in real time, flags irregularities, and streamlines investigation workflows using a full production-grade database architecture.</p>
+              <p className="text-gray-400 mb-4">From enterprise billing systems to a ground-up rebuild — Alexander Wireless is a full-stack anomaly detection dashboard inspired by my T-Mobile work, rebuilt with new tech to solve a brand-new problem.</p>
               <div className="flex flex-wrap gap-2 mb-4">
                 <span className="px-3 py-1 bg-electric-purple/20 text-light-purple rounded-full text-sm">Python</span>
                 <span className="px-3 py-1 bg-electric-purple/20 text-light-purple rounded-full text-sm">Anomaly Detection</span>

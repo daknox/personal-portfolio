@@ -50,7 +50,7 @@ export default function AlexanderWirelessPage() {
               <span className="bg-purple-600/30 text-purple-300 px-4 py-2 rounded-lg">Python</span>
               <span className="bg-purple-600/30 text-purple-300 px-4 py-2 rounded-lg">Next.js</span>
               <span className="bg-purple-600/30 text-purple-300 px-4 py-2 rounded-lg">TypeScript</span>
-              <span className="bg-purple-600/30 text-purple-300 px-4 py-2 rounded-lg">SQLite</span>
+              <span className="bg-purple-600/30 text-purple-300 px-4 py-2 rounded-lg">SQL</span>
               <span className="bg-purple-600/30 text-purple-300 px-4 py-2 rounded-lg">Prisma</span>
               <span className="bg-purple-600/30 text-purple-300 px-4 py-2 rounded-lg">Tailwind CSS</span>
               <span className="bg-purple-600/30 text-purple-300 px-4 py-2 rounded-lg">Pandas</span>
@@ -64,17 +64,10 @@ export default function AlexanderWirelessPage() {
               <h2 className="text-3xl font-bold text-white mb-6">Project Overview</h2>
               <div className="space-y-4 text-gray-300">
                 <p>
-                  Alexander Wireless is a comprehensive anomaly detection system designed to identify unusual patterns 
-                  in billing cycle data. The system processes large datasets of billing information and uses advanced 
-                  algorithms to detect anomalies that could indicate billing errors, fraud, or system issues.
+                  Alexander Wireless started as an attempt to recreate a billing anomaly detection dashboard I built at T-Mobile using Power BI and Alteryx. The original system was rich with nuance—solving complex, real-world problems under tight operational constraints—but I couldn't directly replicate those proprietary details. Instead, I reimagined the project as a new, standalone anomaly detection solution.
                 </p>
                 <p>
-                  The project includes both a Python backend for data processing and anomaly detection, as well as 
-                  a modern Next.js frontend dashboard for visualizing results and managing the system.
-                </p>
-                <p>
-                  Key features include real-time data processing, interactive visualizations, automated anomaly 
-                  reporting, and a robust database system for storing and querying billing data.
+                  To bring it to life, I stepped outside my original tech stack and learned Next.js, Prisma, and advanced Python data processing from the ground up. The result is a full-stack application that ingests large datasets, applies advanced anomaly detection algorithms, and visualizes insights through an interactive, real-time dashboard. While inspired by my enterprise work, this version became its own challenge—one that pushed me to adapt, expand my skills, and deliver a production-quality system from scratch.
                 </p>
               </div>
             </div>
@@ -184,7 +177,7 @@ export default function AlexanderWirelessPage() {
           <div className="text-center">
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link 
-                href="https://github.com/yourusername/alexander-wireless"
+                href="https://github.com/daknox/Alexander-Wireless"
                 className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105"
               >
                 View on GitHub
