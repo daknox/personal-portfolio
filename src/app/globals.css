@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-rgb: 0, 0, 0;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+
+/* Custom styles matching the HTML template exactly */
+.gradient-bg {
+  background: linear-gradient(135deg, #1f2937 0%, #111827 50%, #0f172a 100%);
+}
+
+/* Project card with vibrant purple gradient */
+.project-card {
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.15) 0%, rgba(31, 41, 55, 0.8) 30%, rgba(17, 24, 39, 0.9) 70%, rgba(139, 92, 246, 0.1) 100%);
+  border: 1px solid rgba(139, 92, 246, 0.3);
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(139, 92, 246, 0.4);
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.25) 0%, rgba(31, 41, 55, 0.85) 30%, rgba(17, 24, 39, 0.95) 70%, rgba(139, 92, 246, 0.15) 100%);
+  border: 1px solid rgba(139, 92, 246, 0.5);
+}
+
+/* Technology tags with vibrant purple gradient */
+.bg-electric-purple\/20 {
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.8) 0%, rgba(196, 181, 253, 0.6) 50%, rgba(139, 92, 246, 0.4) 100%) !important;
+  border: 1px solid rgba(139, 92, 246, 0.3) !important;
+  transition: all 0.3s ease;
+}
+
+.bg-electric-purple\/20:hover {
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.9) 0%, rgba(196, 181, 253, 0.8) 50%, rgba(139, 92, 246, 0.6) 100%) !important;
+  border: 1px solid rgba(139, 92, 246, 0.5) !important;
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(139, 92, 246, 0.3);
+}
+
+.text-light-purple {
+  color: #ffffff !important;
+  font-weight: 500;
+}
+
+.glow-effect {
+  box-shadow: 0 0 20px rgba(139, 92, 246, 0.5);
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, #8B5CF6, #C4B5FD);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Explicit hover effects for buttons and social icons */
+.hover\:bg-electric-purple:hover {
+  background-color: #8B5CF6 !important;
+}
+
+.hover\:bg-dark-purple:hover {
+  background-color: #7C3AED !important;
+}
+
+.hover\:text-electric-purple:hover {
+  color: #8B5CF6 !important;
+}
+
+.hover\:scale-105:hover {
+  transform: scale(1.05) !important;
+}
+
+.hover\:scale-110:hover {
+  transform: scale(1.1) !important;
+}
+
+.hover\:shadow-lg:hover {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(139, 92, 246, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(139, 92, 246, 0.5);
+}
+
+/* Apple-style focus states */
+*:focus {
+  outline: 2px solid rgba(139, 92, 246, 0.5);
+  outline-offset: 2px;
+}
+
+/* Smooth transitions */
+* {
+  transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease, transform 0.3s ease;
+}
+
+/* Backdrop blur support */
+@supports (backdrop-filter: blur(10px)) {
+  .backdrop-blur-md {
+    backdrop-filter: blur(12px);
+  }
+}
