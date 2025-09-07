@@ -177,7 +177,7 @@ export default function AlexanderWirelessPage() {
           <div className="text-center">
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link 
-                href="https://alexander-wireless-dashboard.vercel.app"
+                href="/projects/alexander-wireless/dashboard"
                 className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
               >
                 🚀 View Live Dashboard
